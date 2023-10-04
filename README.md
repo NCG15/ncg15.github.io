@@ -1,2 +1,2 @@
 # ncg15.github.io
-My CV
+My first project in HTML and CSS is my CV.
