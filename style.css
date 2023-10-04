@@ -1,0 +1,95 @@
+*{
+font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: #113946;
+    color: #EAD7BB;
+}
+.nav{
+    text-align: center;
+    background-color: #BCA37F;
+    border-radius: 30px;
+    padding: 1em;
+    text-align: fixed;
+    border: 1px solid white; 
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 1s ease-in-out;
+}
+nav{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a:hover{
+    color: black;
+    transform: scale(1.2);
+}
+div > h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+div > h5{
+    text-align: left;
+    margin: 0;
+}
+
+.content{
+    text-align: center;
+}
+.content>p{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.content>p>a{
+    margin: 4px;
+}
+
+h2{
+    font-size: medium;
+    margin-left: 30px;
+
+}
+.about-me > h1{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.education > h1{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.education > h2{
+    text-align: left;
+    font-size: 20px;
+}
+.education>p{
+    font-size: 10px;
+}
+.skills>h1{
+    margin-left: 30px;
+    font-size: 30px;
+}
+.skills>li{
+    margin-left: 30px;
+}
+.language>h1{
+    margin-left: 30px;
+    font-size: 30px;
+}
+.certificates>h1{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.certificates>li{
+    display: inline;
+}
+footer{
+    margin-top: 4rem;
+    text-align: center;
+}
